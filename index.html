@@ -1,3 +1,76 @@
-<div style="width:100%; height:100%; background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(255,0,0,1));">
-  <p style="position: fixed;top: 50%; left: 50%; margin-top: -50px; margin-left: -100px;"><a href="https://jasujaswant.com/portfolio/" style="padding:20px;">My Portfolio</a></p>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <script>
+function myFunction() {
+  location.replace("https://jasujaswant.com/portfolio/")
+}
+</script>
+  <style>
+  body {
+    font: 20px Montserrat, sans-serif;
+    line-height: 1.8;
+    color: #f5f6f7;
+  }
+  p {font-size: 16px;}
+  .margin {margin-bottom: 45px;}
+  .bg-1 { 
+    background-color: #1abc9c; /* Green */
+    color: #ffffff;
+  }
+  .bg-2 { 
+    background-color: #474e5d; /* Dark Blue */
+    color: #ffffff;
+  }
+  .bg-3 { 
+    background-color: #ffffff; /* White */
+    color: #555555;
+  }
+  .bg-4 { 
+    background-color: #2f2f2f; /* Black Gray */
+    color: #fff;
+  }
+  .container-fluid {
+    padding-top: 70px;
+    padding-bottom: 70px;
+  }
+  
+  .child {
+ 
+  background-color: red;
+  /* Center vertically and horizontally */
+  position: relative;
+  top: 50%;
+  left: 50%;
+  margin: -25px 0 0 -25px; /* Apply negative top and left margins to truly center the element */
+}
+  
+  </style>
+</head>
+<body>
+
+<!-- Navbar -->
+
+<!-- First Container -->
+<div class="container-fluid bg-1 text-center">
+  <h3 class="margin">Who Am I?</h3>
+  <img src="bird.jpg" class="img-responsive img-circle margin" style="display:inline" alt="Bird" width="350" height="350">
+  <div>
+  <p class="myBox" onclick=onclick="myFunction()" style="cursor: pointer; background-color:black; display:inline; padding:15px; border-radius:4px; font-size:28px;">Portfolio</p>
 </div>
+</div>
+
+
+
+<!-- Footer -->
+<footer class="bg-4 text-center">
+</footer>
+
+</body>
+</html>
